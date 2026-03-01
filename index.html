@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Creative Sport Agency — спортивный маркетинг, который работает на бренд. Спонсорство, активации, события.">
+  <meta property="og:title" content="CSA — Creative Sport Agency">
+  <meta property="og:description" content="Когда спорт становится языком бренда">
+  <meta property="og:type" content="website">
+  <title>CSA — Creative Sport Agency</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="menu-close" onclick="closeMobileMenu()">✕</button>
+  <a href="#hero" onclick="closeMobileMenu()">Главная</a>
+  <a href="#about" onclick="closeMobileMenu()">О нас</a>
+  <a href="#services" onclick="closeMobileMenu()">Услуги</a>
+  <a href="#contact" onclick="closeMobileMenu()">Контакт</a>
+</div>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">C<span>S</span>A</a>
+  <ul class="nav-links">
+    <li><a href="#about">О нас</a></li>
+    <li><a href="#services">Услуги</a></li>
+    <li><a href="#cases">Кейсы</a></li>
+    <li><a href="#process">Процесс</a></li>
+    <li><a href="#contact-form">Контакт</a></li>
+  </ul>
+  <a href="tel:+77273131392" class="nav-phone">+7 727 313 1392</a>
+  <div class="hamburger" onclick="openMobileMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-bg-text">SPORT</div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Creative Sport Agency · Алматы, Казахстан</div>
+    <h1 class="hero-title">
+      Когда спорт<br>
+      <span class="line2">становится</span>
+      <span class="accent-word">языком</span><br>
+      бренда
+    </h1>
+    <p class="hero-sub">Запускаем бренды в спортивную индустрию.</p>
+    <a href="#about" class="hero-cta">
+      <span>Узнать больше</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">8+</div>
+      <span class="stat-label">Лет на рынке</span>
+    </div>
+    <div class="stat">
+      <div class="stat-num">50+</div>
+      <span class="stat-label">Проектов</span>
+    </div>
+    <div class="stat">
+      <div class="stat-num">∞</div>
+      <span class="stat-label">Возможностей</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-item">Спонсорство</div>
+    <div class="marquee-item">Активации</div>
+    <div class="marquee-item">Digital & SMM</div>
+    <div class="marquee-item">Стратегия</div>
+    <div class="marquee-item">Дизайн</div>
+    <div class="marquee-item">Ивенты</div>
+    <div class="marquee-item">Спорт маркетинг</div>
+    <div class="marquee-item">Консалтинг</div>
+    <!-- Duplicate for seamless loop -->
+    <div class="marquee-item">Спонсорство</div>
+    <div class="marquee-item">Активации</div>
+    <div class="marquee-item">Digital & SMM</div>
+    <div class="marquee-item">Стратегия</div>
+    <div class="marquee-item">Дизайн</div>
+    <div class="marquee-item">Ивенты</div>
+    <div class="marquee-item">Спорт маркетинг</div>
+    <div class="marquee-item">Консалтинг</div>
+  </div>
+</div>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="section-label reveal">О компании</div>
+    <div class="about-grid">
+      <div>
+        <h2 class="about-title reveal">
+          Маркетинг<br>в спорте,<br>который<br>
+          <em>работает</em>
+        </h2>
+        <p class="about-text reveal reveal-delay-1">
+          Спорт сегодня — это не просто соревнования. Это эмоции, энергия, стремление к победе и невероятный уровень вовлечения аудитории. Мы помогаем брендам войти в спортивную индустрию так, чтобы каждая интеграция была частью стратегии.
+        </p>
+        <p class="about-text reveal reveal-delay-2">
+          Наша задача — усилить присутствие бренда в спортивной культуре, помочь ему стать естественным участником событий и создать эмоциональный отклик, который работает долгосрочно.
+        </p>
+        <ul class="about-points reveal reveal-delay-3">
+          <li>Запускаем бренды на крупных спортивных мероприятиях: чемпионатах, турнирах, марафонах, фан-зонах и фестивалях</li>
+          <li>Формируем стратегию присутствия в спорте под конкретные цели бизнеса</li>
+          <li>Создаём яркие спортивные активации, которые выделяются и запоминаются</li>
+        </ul>
+      </div>
+      <div class="about-visual">
+        <div class="about-card reveal reveal-delay-1">
+          <span class="about-card-title">10+</span>
+          <span class="about-card-sub">Лет опыта в спортивном маркетинге</span>
+          <p class="about-card-text">Мы собрали лучшую команду специалистов, обладающую большим опытом в реализации самых сложных интегрированных проектов в разных каналах коммуникации.</p>
+        </div>
+        <div class="about-card about-card-2 reveal reveal-delay-2">
+          <span class="about-card-title">50+</span>
+          <span class="about-card-sub">Успешных проектов</span>
+          <p class="about-card-text">Интеграции, спонсорство и коллаборации со спортсменами, командами и спортивными клубами по всему Казахстану.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <div class="services-header">
+      <div>
+        <div class="section-label reveal">Что мы делаем</div>
+        <h2 class="services-title reveal">Услуги</h2>
+      </div>
+      <p class="services-desc reveal">Полный спектр решений в области спортивного маркетинга — от стратегии до реализации</p>
+    </div>
+  </div>
+
+  <div class="container" style="padding:0">
+    <div class="services-grid">
+      <a class="service-card" href="#">
+        <div class="service-num">01</div>
+        <span class="service-icon">🏆</span>
+        <h3 class="service-name">Активация спонсорских прав</h3>
+        <p class="service-text">Реализуем спонсорские кампании, которые делают партнёрство заметным и приносят результат.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="#">
+        <div class="service-num">02</div>
+        <span class="service-icon">🤝</span>
+        <h3 class="service-name">Спонсорство</h3>
+        <p class="service-text">Подбираем подходящих партнёров и выстраиваем взаимовыгодное сотрудничество брендов и спорта.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="#">
+        <div class="service-num">03</div>
+        <span class="service-icon">⭐</span>
+        <h3 class="service-name">Имиджевые права спортсменов</h3>
+        <p class="service-text">Помогаем спортсменам монетизировать свой образ и заключать партнёрства с брендами.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="#">
+        <div class="service-num">04</div>
+        <span class="service-icon">📊</span>
+        <h3 class="service-name">Разработка стратегии</h3>
+        <p class="service-text">Создаём чёткий план продвижения и коммуникаций, чтобы достичь целей проекта.</p>
+        <span class="service-arrow">→</span>
+      </a>
+    </div>
+    <div class="services-grid services-grid-2">
+      <a class="service-card" href="#">
+        <div class="service-num">05</div>
+        <span class="service-icon">🎨</span>
+        <h3 class="service-name">Креатив и дизайн</h3>
+        <p class="service-text">Разрабатываем визуальные и концептуальные решения, которые усиливают бренд и эмоции аудитории.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="#">
+        <div class="service-num">06</div>
+        <span class="service-icon">📱</span>
+        <h3 class="service-name">Digital и SMM</h3>
+        <p class="service-text">Развиваем бренды в цифровой среде — от контент-плана до таргетированной рекламы.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="#">
+        <div class="service-num">07</div>
+        <span class="service-icon">🔍</span>
+        <h3 class="service-name">Консалтинг и исследования</h3>
+        <p class="service-text">Проводим анализ рынка и консультируем по вопросам развития спонсорских проектов.</p>
+        <span class="service-arrow">→</span>
+      </a>
+      <a class="service-card" href="#">
+        <div class="service-num">08</div>
+        <span class="service-icon">🎯</span>
+        <h3 class="service-name">Организация событий</h3>
+        <p class="service-text">Планируем и проводим спортивные ивенты, создавая атмосферу, которую запоминают.</p>
+        <span class="service-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Process Section -->
+<section id="process">
+  <div class="container">
+    <div class="process-header">
+      <div class="section-label reveal">Как мы работаем</div>
+      <h2 class="process-title reveal">Путь от идеи<br>до результата</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-dot"></div>
+        <div class="step-num">01</div>
+        <h3 class="step-title">Анализ и брифинг</h3>
+        <p class="step-text">Погружаемся в бизнес клиента, изучаем аудиторию, конкурентов и цели. Формируем чёткое понимание задачи.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-dot"></div>
+        <div class="step-num">02</div>
+        <h3 class="step-title">Стратегия и концепция</h3>
+        <p class="step-text">Разрабатываем уникальную стратегию присутствия бренда в спортивном пространстве, подбираем инструменты.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-dot"></div>
+        <div class="step-num">03</div>
+        <h3 class="step-title">Реализация</h3>
+        <p class="step-text">Воплощаем концепцию в жизнь — от производства материалов до организации мероприятий и digital-активностей.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-dot"></div>
+        <div class="step-num">04</div>
+        <h3 class="step-title">Активации на площадке</h3>
+        <p class="step-text">Создаём живые точки контакта бренда с аудиторией: интерактивы, зоны, фотозоны, игровые механики.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-dot"></div>
+        <div class="step-num">05</div>
+        <h3 class="step-title">Digital-поддержка</h3>
+        <p class="step-text">Amplify всех активностей в социальных сетях, контент-продакшн, таргетированная реклама.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="step-dot"></div>
+        <div class="step-num">06</div>
+        <h3 class="step-title">Отчёт и аналитика</h3>
+        <p class="step-text">Предоставляем детальный отчёт с метриками охвата, вовлечённости и конверсии. Делаем выводы для следующих кампаний.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cases / Portfolio Section -->
+<section id="cases">
+  <div class="container">
+    <div class="cases-header">
+      <div>
+        <div class="section-label reveal">Портфолио</div>
+        <h2 class="cases-title reveal">Кейсы</h2>
+      </div>
+      <div class="cases-filter reveal">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="sponsorship">Спонсорство</button>
+        <button class="filter-btn" data-filter="event">Ивенты</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+        <button class="filter-btn" data-filter="activation">Активации</button>
+      </div>
+    </div>
+
+    <div class="cases-grid" id="casesGrid">
+
+      <!-- Case 1 — large -->
+      <a class="case-card reveal" href="#" data-category="sponsorship">
+        <div class="banner">
+          <img src="images/kairat.jpg" alt="FC Kairat 1954">
+        </div>
+        <div class="case-overlay">
+          <span class="case-tag">Спонсорство · 2024</span>
+          <h3 class="case-name">Спонсорский пакет<br>Клуба «Кайрат»</h3>
+          <p class="case-desc">Разработали полный спонсорский пакет, включающий брендинг на форме, бортовую рекламу и digital-интеграцию для партнёра клуба.</p>
+          <span class="case-link">Смотреть кейс →</span>
+        </div>
+      </a>
+
+      <!-- Case 2 -->
+      <a class="case-card reveal reveal-delay-1" href="#" data-category="event">
+        <div class="case-thumb-placeholder">🏃</div>
+        <div class="case-overlay">
+          <span class="case-tag">Ивент · 2024</span>
+          <h3 class="case-name">Алматы Марафон 2024</h3>
+          <p class="case-desc">Организовали присутствие бренда на крупнейшем марафоне страны с охватом 25 000+ участников.</p>
+          <span class="case-link">Смотреть кейс →</span>
+        </div>
+      </a>
+
+      <!-- Case 3 -->
+      <a class="case-card reveal reveal-delay-2" href="#" data-category="digital">
+        <div class="case-thumb-placeholder">📱</div>
+        <div class="case-overlay">
+          <span class="case-tag">Digital · 2023</span>
+          <h3 class="case-name">SMM-кампания для Kaspi Sport</h3>
+          <p class="case-desc">Контентная стратегия и таргетированная реклама, увеличившая вовлечённость аудитории на 340%.</p>
+          <span class="case-link">Смотреть кейс →</span>
+        </div>
+      </a>
+
+      <!-- Case 4 -->
+      <a class="case-card reveal reveal-delay-1" href="#" data-category="activation">
+        <div class="case-thumb-placeholder">🎯</div>
+        <div class="case-overlay">
+          <span class="case-tag">Активация · 2023</span>
+          <h3 class="case-name">Интерактивная фан-зона</h3>
+          <p class="case-desc">Иммерсивная фан-зона на чемпионате с 3 000+ посетителями в день.</p>
+          <span class="case-link">Смотреть кейс →</span>
+        </div>
+      </a>
+
+      <!-- Case 5 -->
+      <a class="case-card reveal reveal-delay-2" href="#" data-category="sponsorship">
+        <div class="case-thumb-placeholder">🥊</div>
+        <div class="case-overlay">
+          <span class="case-tag">Спонсорство · 2023</span>
+          <h3 class="case-name">Партнёрство со спортсменом</h3>
+          <p class="case-desc">Имиджевый контракт и продвижение бренда через амбассадора в боксе.</p>
+          <span class="case-link">Смотреть кейс →</span>
+        </div>
+      </a>
+
+      <!-- Case 6 -->
+      <a class="case-card reveal reveal-delay-3" href="#" data-category="event">
+        <div class="case-thumb-placeholder">🏊</div>
+        <div class="case-overlay">
+          <span class="case-tag">Ивент · 2022</span>
+          <h3 class="case-name">Чемпионат по плаванию</h3>
+          <p class="case-desc">Полное спонсорское оформление международного турнира по плаванию.</p>
+          <span class="case-link">Смотреть кейс →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact-form">
+  <div class="container">
+    <div class="form-layout">
+
+      <!-- Left: info -->
+      <div class="form-left">
+        <div class="section-label reveal">Напишите нам</div>
+        <h2 class="reveal">Обсудим<br>ваш проект</h2>
+        <p class="reveal reveal-delay-1">Расскажите о своём бренде и задачах. Мы свяжемся с вами в течение одного рабочего дня и предложим оптимальное решение.</p>
+
+        <div class="form-contacts reveal reveal-delay-2">
+          <div class="form-contact-item">
+            <div class="form-contact-icon">📞</div>
+            <div>
+              <span class="form-contact-label">Телефон</span>
+              <a class="form-contact-val" href="tel:+77273131392">+7 727 313 1392</a>
+            </div>
+          </div>
+          <div class="form-contact-item">
+            <div class="form-contact-icon">✉️</div>
+            <div>
+              <span class="form-contact-label">Email</span>
+              <a class="form-contact-val" href="/cdn-cgi/l/email-protection#0861666e67486b7a6d697c617e6d7b78677a7c7b266372"><span class="__cf_email__" data-cfemail="7e171018113e1d0c1b1f0a17081b0d0e110c0a0d501504">[email&#160;protected]</span></a>
+            </div>
+          </div>
+          <div class="form-contact-item">
+            <div class="form-contact-icon">📍</div>
+            <div>
+              <span class="form-contact-label">Адрес</span>
+              <span class="form-contact-val">Алматы, Калдаякова 34/29, 6 этаж</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: form -->
+      <div class="reveal reveal-delay-1">
+        <form class="csa-form" id="csaForm" onsubmit="handleSubmit(event)">
+
+          <div class="form-row">
+            <div class="form-field">
+              <input type="text" id="fname" placeholder=" " autocomplete="given-name">
+              <label for="fname">Ваше имя</label>
+            </div>
+            <div class="form-field">
+              <input type="text" id="company" placeholder=" " autocomplete="organization">
+              <label for="company">Компания</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <input type="tel" id="phone" placeholder=" " autocomplete="tel">
+              <label for="phone">Телефон</label>
+            </div>
+            <div class="form-field">
+              <input type="email" id="email" placeholder=" " autocomplete="email">
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <div class="form-field full">
+            <select id="service">
+              <option value="" disabled selected hidden></option>
+              <option value="sponsorship">Активация спонсорских прав</option>
+              <option value="partner">Спонсорство / Партнёрство</option>
+              <option value="athlete">Имиджевые права спортсменов</option>
+              <option value="strategy">Разработка стратегии</option>
+              <option value="creative">Креатив и дизайн</option>
+              <option value="digital">Digital и SMM</option>
+              <option value="consult">Консалтинг</option>
+              <option value="event">Организация событий</option>
+            </select>
+            <label for="service">Интересующая услуга</label>
+          </div>
+
+          <div class="form-field textarea-field">
+            <textarea id="message" placeholder=" "></textarea>
+            <label for="message">Расскажите о проекте</label>
+          </div>
+
+          <div class="form-checkboxes">
+            <span style="font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(245,240,235,0.3);width:100%;margin-bottom:4px;">Бюджет проекта</span>
+            <label class="check-label"><input type="radio" name="budget" value="small"> до 500 000 ₸</label>
+            <label class="check-label"><input type="radio" name="budget" value="med"> 500 000 – 2 млн ₸</label>
+            <label class="check-label"><input type="radio" name="budget" value="large"> 2 – 10 млн ₸</label>
+            <label class="check-label"><input type="radio" name="budget" value="xlarge"> 10 млн ₸ +</label>
+          </div>
+
+          <div class="form-submit-row">
+            <p class="form-privacy">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+            <button type="submit" class="form-submit"><span>Отправить заявку →</span></button>
+          </div>
+
+        </form>
+
+        <div class="form-success" id="formSuccess">
+          <span class="form-success-icon">✓</span>
+          <h3>Заявка отправлена!</h3>
+          <p>Мы получили ваше сообщение и свяжемся с вами в течение одного рабочего дня.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-content">
+      <span class="cta-label">Готовы начать?</span>
+      <h2 class="cta-title">Давайте<br>работать<br>вместе</h2>
+      <a href="tel:+77273131392" class="cta-btn">
+        <span>Связаться с нами</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-logo">C<span>S</span>A</span>
+        <p class="footer-desc">Creative Sport Agency — агентство спортивного маркетинга. Помогаем брендам стать частью спортивной культуры.</p>
+        <div class="footer-contact">
+          <a href="tel:+77273131392">+7 727 313 1392</a>
+          <a href="mailto:info@creativesports.kz" class="form-contact-val">info@creativesports.kz</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-heading">Навигация</p>
+        <ul class="footer-links">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#process">Как работаем</a></li>
+          <li><a href="#contact">Контакт</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Услуги</p>
+        <ul class="footer-links">
+          <li><a href="#">Спонсорство</a></li>
+          <li><a href="#">Активации</a></li>
+          <li><a href="#">Digital & SMM</a></li>
+          <li><a href="#">Организация событий</a></li>
+          <li><a href="#">Консалтинг</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Creative Sport Agency. Все права защищены.</p>
+      <p class="footer-addr">050010, Казахстан, Алматы, Калдаякова 34/29, 6 этаж</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
